@@ -1,0 +1,8 @@
+prefix=/home/pi/Desktop/IMU/catkin_workspace/devel
+
+Name: gy521
+Description: Description of gy521
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/Desktop/IMU/catkin_workspace/devel/lib 
+Requires: 

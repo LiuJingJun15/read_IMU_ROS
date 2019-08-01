@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/Desktop/IMU/catkin_workspace/devel/setup.sh

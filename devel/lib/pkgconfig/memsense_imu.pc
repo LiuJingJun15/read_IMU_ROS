@@ -1,0 +1,8 @@
+prefix=/home/pi/Desktop/IMU/catkin_workspace/devel
+
+Name: memsense_imu
+Description: Description of memsense_imu
+Version: 0.0.1
+Cflags: -I/home/pi/Desktop/IMU/catkin_workspace/devel/include
+Libs: -L/home/pi/Desktop/IMU/catkin_workspace/devel/lib 
+Requires: roscpp geometry_msgs std_msgs sensor_msgs message_runtime dynamic_reconfigure nodelet

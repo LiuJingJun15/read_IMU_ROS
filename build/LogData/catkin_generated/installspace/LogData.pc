@@ -1,0 +1,8 @@
+prefix=/home/pi/Desktop/IMU/catkin_workspace/install
+
+Name: LogData
+Description: Description of LogData
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/Desktop/IMU/catkin_workspace/install/lib 
+Requires: 

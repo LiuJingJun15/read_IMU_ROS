@@ -1,0 +1,2 @@
+gy521:memsense_imu:robot_upstart
+-DCATKIN_DEVEL_PREFIX=/home/pi/Desktop/IMU/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/pi/Desktop/IMU/catkin_workspace/install -G Unix Makefiles

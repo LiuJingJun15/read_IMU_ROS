@@ -1,0 +1,26 @@
+\subsubsection usage Usage
+\verbatim
+<node name="IMUBaseNode" pkg="memsense_imu" type="IMUBaseNode">
+  <param name="imu_type" type="str" value="nIMU_3temp" />
+  <param name="gyros_range" type="double" value="150.0" />
+  <param name="accels_range" type="double" value="2.0" />
+  <param name="mags_range" type="double" value="1.9" />
+  <param name="serial_port" type="str" value="/dev/ttyUSB0" />
+  <param name="gyros_var" type="double" value="0.0" />
+  <param name="accels_var" type="double" value="0.0" />
+  <param name="mags_var" type="double" value="0.0" />
+  <param name="gyro_bias_x" type="double" value="0.0" />
+  <param name="gyro_bias_y" type="double" value="0.0" />
+  <param name="gyro_bias_z" type="double" value="0.0" />
+  <param name="accel_bias_x" type="double" value="0.0" />
+  <param name="accel_bias_y" type="double" value="0.0" />
+  <param name="accel_bias_z" type="double" value="0.0" />
+  <param name="mag_bias_x" type="double" value="0.0" />
+  <param name="mag_bias_y" type="double" value="0.0" />
+  <param name="mag_bias_z" type="double" value="0.0" />
+  <param name="polling_rate" type="double" value="150.0" />
+  <param name="filter_rate" type="double" value="10.0" />
+  <param name="frame_id" type="str" value="imu" />
+</node>
+\endverbatim
+

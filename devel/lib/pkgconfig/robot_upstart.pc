@@ -1,0 +1,8 @@
+prefix=/home/pi/Desktop/IMU/catkin_workspace/devel
+
+Name: robot_upstart
+Description: Description of robot_upstart
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/pi/Desktop/IMU/catkin_workspace/devel/lib 
+Requires: 

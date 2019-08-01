@@ -1,0 +1,25 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~imu_type" : \b [str] IMU device type name min: , default: nIMU_3temp, max: 
+- \b "~gyros_range" : \b [double] Gyroscopes' range (deg/sec). min: 0.0, default: 150.0, max: 1200.0
+- \b "~accels_range" : \b [double] Accelerometers' range (g). min: 0.0, default: 2.0, max: 40.0
+- \b "~mags_range" : \b [double] Magnetometers' range (gauss). min: 0.0, default: 1.9, max: 4.0
+- \b "~serial_port" : \b [str] Serial port device file name (including full path) min: , default: /dev/ttyUSB0, max: 
+- \b "~gyros_var" : \b [double] Gyroscopes' var (deg^2/seg^2). min: 0.0, default: 0.0, max: 1.0
+- \b "~accels_var" : \b [double] Accelerometers' var (g^2). min: 0.0, default: 0.0, max: 1e-05
+- \b "~mags_var" : \b [double] Magnetometers' var (gauss^2). min: 0.0, default: 0.0, max: 1e-05
+- \b "~gyro_bias_x" : \b [double] x gyroscope's bias (deg/sec). min: -1.5, default: 0.0, max: 1.5
+- \b "~gyro_bias_y" : \b [double] y gyroscope's bias (deg/sec). min: -1.5, default: 0.0, max: 1.5
+- \b "~gyro_bias_z" : \b [double] z gyroscope's bias (deg/sec). min: -1.5, default: 0.0, max: 1.5
+- \b "~accel_bias_x" : \b [double] x accelerometer's bias (g). min: -0.5, default: 0.0, max: 0.5
+- \b "~accel_bias_y" : \b [double] y accelerometer's bias (g). min: -0.5, default: 0.0, max: 0.5
+- \b "~accel_bias_z" : \b [double] z accelerometer's bias (g). min: -0.5, default: 0.0, max: 0.5
+- \b "~mag_bias_x" : \b [double] x magnetometer's bias (gauss). min: -1.0, default: 0.0, max: 1.0
+- \b "~mag_bias_y" : \b [double] y magnetometer's bias (gauss). min: -1.0, default: 0.0, max: 1.0
+- \b "~mag_bias_z" : \b [double] z magnetometer's bias (gauss). min: -1.0, default: 0.0, max: 1.0
+- \b "~polling_rate" : \b [double] Polling rate (set the device maximum output to avoid busy waits (0.0 disables polling) min: 0.0, default: 150.0, max: 1000.0
+- \b "~filter_rate" : \b [double] Rate for filtered data publications (0.0 disables filtering) min: 0.0, default: 10.0, max: 50.0
+- \b "~frame_id" : \b [str] Frame in which IMU readings will be returned min: , default: imu, max: 
+

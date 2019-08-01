@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="gy521" name="publisher_68" type="publisher_68.py" />
+<node pkg="gy521" name="publisher_69" type="publisher_69.py" />
+<node pkg="gy521" name="publisher_baro" type="publisher_baro.py" />
+
+
+</launch>
