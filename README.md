@@ -3,6 +3,6 @@ This is a ROS workspace. It is used in integrating data from two IMUs and a baro
 
 usage: 'roslaunch gy521 start.launch'. 
 
-Three topics should be published, you can use 'rosrun gy521 listener.py' to subscribe the data.
+Three topics should be published, you can use 'rosrun gy521 subscriber.py' to subscribe the data.
 
 All data collected is written into .csv files in 'data' folder
